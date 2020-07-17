@@ -1,0 +1,717 @@
+{ "gattservices" :
+  [
+      { "name":"Aerobic Heart Rate Lower Limit",
+	"value":"0x2A7E"
+      } ,
+      { "name":"Aerobic Heart Rate Upper Limit",
+	"value":"0x2A84"
+      },
+      { "name":"Aerobic Threshold",
+	"value":"0x2A7F"
+      },
+      { "name":"Age",
+	"value":"0x2A80"
+      },
+      { "name":"Aggregate",
+	"value":"0x2A5A"
+      },
+      { "name":"Alert Category ID",
+	"value":"0x2A43"
+      },
+      { "name":"Alert Category ID Bit Mask",
+	"value":"0x2A42"
+      },
+      { "name":"Alert Level",
+	"value":"0x2A06"
+      },
+      { "name":"Alert Notification Control Point",
+	"value":"0x2A44"
+      },
+      { "name":"Alert Status",
+	"value":"0x2A3F"
+      },
+      { "name":"Altitude",
+	"value":"0x2AB3"
+      },
+      { "name":"Anaerobic Heart Rate Lower Limit",
+	"value":"0x2A81"
+      },
+      { "name":"Anaerobic Heart Rate Upper Limit",
+	"value":"0x2A82"
+      },
+      { "name":"Anaerobic Threshold",
+	"value":"0x2A83"
+      },
+      { "name":"Analog",
+	"value":"0x2A58"
+      },
+      { "name":"Analog Output",
+	"value":"0x2A59"
+      },
+      { "name":"Apparent Wind Direction",
+	"value":"0x2A73"
+      },
+      { "name":"Apparent Wind Speed",
+	"value":"0x2A72"
+      },
+      { "name":"Appearance",
+	"value":"0x2A01"
+      },
+      { "name":"Barometric Pressure Trend",
+	"value":"0x2AA3"
+      },
+      { "name":"Battery Level",
+	"value":"0x2A19"
+      },
+      { "name":"Battery Level State",
+	"value":"0x2A1B"
+      },
+      { "name":"Battery Power State",
+	"value":"0x2A1A"
+      },
+      { "name":"Blood Pressure Feature",
+	"value":"0x2A49"
+      },
+      { "name":"Blood Pressure Measurement",
+	"value":"0x2A35"
+      },
+      { "name":"Body Composition Feature",
+	"value":"0x2A9B"
+      },
+      { "name":"Body Composition Measurement",
+	"value":"0x2A9C"
+      },
+      { "name":"Body Sensor Location",
+	"value":"0x2A38"
+      },
+      { "name":"Bond Management Control Point",
+	"value":"0x2AA4"
+      },
+      { "name":"Bond Management Features",
+	"value":"0x2AA5"
+      },
+      { "name":"Boot Keyboard Input Report",
+	"value":"0x2A22"
+      },
+      { "name":"Boot Keyboard Output Report",
+	"value":"0x2A32"
+      },
+      { "name":"Boot Mouse Input Report",
+	"value":"0x2A33"
+      },
+      { "name":"BSS Control Point",
+	"value":"0x2B2B"
+      },
+      { "name":"BSS Response",
+	"value":"0x2B2C"
+      },
+      { "name":"CGM Feature",
+	"value":"0x2AA8"
+      },
+      { "name":"CGM Measurement",
+	"value":"0x2AA7"
+      },
+      { "name":"CGM Session Run Time",
+	"value":"0x2AAB"
+      },
+      { "name":"CGM Session Start Time",
+	"value":"0x2AAA"
+      },
+	{"name": "CGM Specific Ops Control Point",
+		  "value": "0x2AAC"
+	  },
+    { "name":"CGM Status",
+		"value":"0x2AA9"
+	},
+	{ "name":"Client Supported Features",
+	  "value":"0x2B29"
+	},
+	{ "name":"Cross Trainer Data",
+	  "value":"0x2ACE"
+	},
+	{ "name":"CSC Feature",
+	  "value":"0x2A5C"
+	},
+	{ "name":"CSC Measurement",
+	  "value":"0x2A5B"
+	},
+	{ "name":"Current Time",
+	  "value":"0x2A2B"
+	},
+	{ "name":"Cycling Power Control Point",
+	  "value":"0x2A66"
+	},
+	{ "name":"Cycling Power Feature",
+	  "value":"0x2A65"
+	},
+	{ "name":"Cycling Power Measurement",
+	  "value":"0x2A63"
+	},
+	{ "name":"Cycling Power Vector",
+	  "value":"0x2A64"
+	},
+	{ "name":"Database Change Increment",
+	  "value":"0x2A99"
+	},
+	{ "name":"Database Hash",
+	  "value":"0x2B2A"
+	},
+	{ "name":"Date of Birth",
+	  "value":"0x2A85"
+	},
+	{ "name":"Date of Threshold Assessment",
+	  "value":"0x2A86"
+	},
+	{ "name":"Date Time",
+	  "value":"0x2A08"
+	},
+	{ "name":"Date UTC",
+	  "value":"0x2AED"
+	},
+	{ "name":"Day Date Time",
+	  "value":"0x2A0A"
+	},
+	{ "name":"Day of Week",
+	  "value":"0x2A09"
+	},
+	{ "name":"Descriptor Value Changed",
+	  "value":"0x2A7D"
+	},
+	{ "name":"Dew Point",
+	  "value":"0x2A7B"
+	},
+	{ "name":"Digital",
+	  "value":"0x2A56"
+	},
+	{ "name":"Digital Output",
+	  "value":"0x2A57"
+	},
+	{ "name":"DST Offset",
+	  "value":"0x2A0D"
+	},
+	{ "name":"Elevation",
+	  "value":"0x2A6C"
+	},
+	{ "name":"Email Address",
+	  "value":"0x2A87"
+	},
+	{ "name":"Emergency ID",
+	  "value":"0x2B2D"
+	},
+	{ "name":"Emergency Text",
+	  "value":"0x2B2E"
+	},
+	{ "name":"Exact Time 100",
+	  "value":"0x2A0B"
+	},
+	{ "name":"Exact Time 256",
+	  "value":"0x2A0C"
+	},
+	{ "name":"Fat Burn Heart Rate Lower Limit",
+	  "value":"0x2A88"
+	},
+	{ "name":"Fat Burn Heart Rate Upper Limit",
+	  "value":"0x2A89"
+	},
+	{ "name":"Firmware Revision String",
+	  "value":"0x2A26"
+	},
+	{ "name":"First Name",
+	  "value":"0x2A8A"
+	},
+	{ "name":"Fitness Machine Control Point",
+	  "value":"0x2AD9"
+	},
+	{ "name":"Fitness Machine Feature",
+	  "value":"0x2ACC"
+	},
+	{ "name":"Fitness Machine Status",
+	  "value":"0x2ADA"
+	},
+	{ "name":"Five Zone Heart Rate Limits",
+	  "value":"0x2A8B"
+	},
+	{ "name":"Floor Number",
+	  "value":"0x2AB2"
+	},
+	{ "name":"Central Address Resolution",
+	  "value":"0x2AA6"
+	},
+	{ "name":"Device Name",
+	  "value":"0x2A00"
+	},
+	{ "name":"Peripheral Preferred Connection Parameters",
+	  "value":"0x2A04"
+	},
+	{ "name":"Peripheral Privacy Flag",
+	  "value":"0x2A02"
+	},
+	{ "name":"Reconnection Address",
+	  "value":"0x2A03"
+	},
+	{ "name":"Service Changed",
+	  "value":"0x2A05"
+	},
+	{ "name":"Gender",
+	  "value":"0x2A8C"
+	},
+	{ "name":"Glucose Feature",
+	  "value":"0x2A51"
+	},
+	{ "name":"Glucose Measurement",
+	  "value":"0x2A18"
+	},
+	{ "name":"Glucose Measurement Context",
+	  "value":"0x2A34"
+	},
+	{ "name":"Gust Factor",
+	  "value":"0x2A74"
+	},
+	{ "name":"Hardware Revision String",
+	  "value":"0x2A27"
+	},
+	{ "name":"Heart Rate Control Point",
+	  "value":"0x2A39"
+	},
+	{ "name":"Heart Rate Max",
+	  "value":"0x2A8D"
+	},
+	{ "name":"Heart Rate Measurement",
+	  "value":"0x2A37"
+	},
+	{ "name":"Heat Index",
+	  "value":"0x2A7A"
+	},
+	{ "name":"Height",
+	  "value":"0x2A8E"
+	},
+	{ "name":"HID Control Point",
+	  "value":"0x2A4C"
+	},
+	{ "name":"HID Information",
+	  "value":"0x2A4A"
+	},
+	{ "name":"Hip Circumference",
+	  "value":"0x2A8F"
+	},
+	{ "name":"HTTP Control Point",
+	  "value":"0x2ABA"
+	},
+	{ "name":"HTTP Entity Body",
+	  "value":"0x2AB9"
+	},
+	{ "name":"HTTP Headers",
+	  "value":"0x2AB7"
+	},
+	{ "name":"HTTP Status Code",
+	  "value":"0x2AB8"
+	},
+	{ "name":"HTTPS Security",
+	  "value":"0x2ABB"
+	},
+	{ "name":"Humidity",
+	  "value":"0x2A6F"
+	},
+	{ "name":"IDD Annunciation Status",
+	  "value":"0x2B22"
+	},
+	{ "name":"IDD Command Control Point",
+	  "value":"0x2B25"
+	},
+	{ "name":"IDD Command Data",
+	  "value":"0x2B26"
+	},
+	{ "name":"IDD Features",
+	  "value":"0x2B23"
+	},
+	{ "name":"IDD History Data",
+	  "value":"0x2B28"
+	},
+	{ "name":"IDD Record Access Control Point",
+	  "value":"0x2B27"
+	},
+	{ "name":"IDD Status",
+	  "value":"0x2B21"
+	},
+	{ "name":"IDD Status Changed",
+	  "value":"0x2B20"
+	},
+	{ "name":"IDD Status Reader Control Point",
+	  "value":"0x2B24"
+	},
+	{ "name":"IEEE 11073-20601 Regulatory Certification Data List",
+	  "value":"0x2A2A"
+	},
+	{ "name":"Indoor Bike Data",
+	  "value":"0x2AD2"
+	},
+	{ "name":"Indoor Positioning Configuration",
+	  "value":"0x2AAD"
+	},
+	{ "name":"Intermediate Cuff Pressure",
+	  "value":"0x2A36"
+	},
+	{ "name":"Intermediate Temperature",
+	  "value":"0x2A1E"
+	},
+	{ "name":"Irradiance",
+	  "value":"0x2A77"
+	},
+	{ "name":"Language",
+	  "value":"0x2AA2"
+	},
+	{ "name":"Last Name",
+	  "value":"0x2A90"
+	},
+	{ "name":"Latitude",
+	  "value":"0x2AAE"
+	},
+        { "name":"LN Control Point",
+	  "value":"0x2A6B"
+	},
+	{ "name":"LN Feature",
+	  "value":"0x2A6A"
+	},
+	{ "name":"Local East Coordinate",
+	  "value":"0x2AB1"
+	},
+	{ "name":"Local North Coordinate",
+	  "value":"0x2AB0"
+	},
+	{ "name":"Local Time Information",
+	  "value":"0x2A0F"
+	},
+	{ "name":"Location and Speed Characteristic",
+	  "value":"0x2A67"
+	},
+	{ "name":"Location Name",
+		"value":"0x2AB5" },
+	{ "name":"Longitude",
+	  "value":"0x2AAF"
+	},
+	{ "name":"Magnetic Declination",
+	  "value":"0x2A2C"
+	},
+	{ "name":"Magnetic Flux Density – 2D",
+	  "value":"0x2AA0"
+	},
+	{ "name":"Magnetic Flux Density – 3D",
+	  "value":"0x2AA1"
+	},
+	{ "name":"Manufacturer Name String",
+	  "value":"0x2A29"
+	},
+	{ "name":"Maximum Recommended Heart Rate",
+	  "value":"0x2A91"
+	},
+	{ "name":"Measurement Interval",
+	  "value":"0x2A21"
+	},
+	{ "name":"Mesh Provisioning Data In",
+	  "value":"0x2ADB"
+	},
+	{ "name":"Mesh Provisioning Data Out",
+	  "value":"0X2ADC"
+	},
+	{ "name":"Mesh Proxy Data In",
+	  "value":"0X2ADD"
+	},
+	{ "name":"Mesh Proxy Data Out",
+	  "value":"0X2ADE"
+	},
+	{ "name":"Model Number String",
+	  "value":"0x2A24"
+	},
+	{ "name":"Navigation",
+	  "value":"0x2A68"
+	},
+	{ "name":"Network Availability",
+	  "value":"0x2A3E"
+	},
+	{ "name":"New Alert",
+	  "value":"0x2A46"
+	},
+	{ "name":"Object Action Control Point",
+	  "value":"0x2AC5"
+	},
+	{ "name":"Object Changed",
+	  "value":"0x2AC8"
+	},
+	{ "name":"Object First-Created",
+	  "value":"0x2AC1"
+	},
+	{ "name":"Object ID",
+	  "value":"0x2AC3"
+	},
+	{ "name":"Object Last-Modified",
+	  "value":"0x2AC2"
+	},
+	{ "name":"Object List Control Point",
+	  "value":"0x2AC6"
+	},
+	{ "name":"Object List Filter",
+	  "value":"0x2AC7"
+	},
+	{ "name":"Object Name",
+	  "value":"0x2ABE"
+	},
+	{ "name":"Object Properties",
+	  "value":"0x2AC4"
+	},
+	{ "name":"  Object Size",
+	  "value":"0x2AC0"
+	},
+	{ "name":"Object Type",
+	  "value":"0x2ABF"
+	},
+	{ "name":"OTS Feature",
+	  "value":"0x2ABD"
+	},
+	{ "name":"PLX Continuous Measurement Characteristic",
+	  "value":"0x2A5F"
+	},
+	{ "name":"PLX Features",
+	  "value":"0x2A60"
+	},
+	{ "name":"PLX Spot-Check Measurement",
+	  "value":"0x2A5E"
+	},
+	{ "name":"PnP ID",
+	  "value":"0x2A50"
+	},
+	{ "name":"Pollen Concentration",
+	  "value":"0x2A75"
+	},
+	{ "name":"Position 2D",
+	  "value":"0x2A2F"
+	},
+	{ "name":"Position 3D",
+	  "value":"0x2A30"
+	},
+	{ "name":"Position Quality",
+	  "value":"0x2A69"
+	},
+	{ "name":"Pressure",
+	  "value":"0x2A6D"
+	},
+	{ "name":"Protocol Mode",
+	  "value":"0x2A4E"
+	},
+	{ "name":"Pulse Oximetry Control Point",
+	  "value":"0x2A62"
+	},
+	{ "name":"Rainfall",
+	  "value":"0x2A78"
+	},
+	{ "name":"RC Feature",
+	  "value":"0x2B1D"
+	},
+	{ "name":"RC Settings",
+	  "value":"0x2B1E"
+	},
+	{ "name":"Reconnection Configuration Control Point",
+	  "value":"0x2B1F"
+	},
+	{ "name":"Record Access Control Point",
+	  "value":"0x2A52"
+	},
+	{ "name":"Reference Time Information",
+	  "value":"0x2A14"
+	},
+	{ "name":"Registered User Characteristic",
+	  "value":"0x2B37"
+	},
+	{ "name":"Removable",
+	  "value":"0x2A3A"
+	},
+	{ "name":"Report",
+	  "value":"0x2A4D"
+	},
+	{ "name":"Report Map",
+	  "value":"0x2A4B"
+	},
+	{ "name":"Resolvable Private Address Only",
+	  "value":"0x2AC9"
+	},
+	{ "name":"Resting Heart Rate",
+	  "value":"0x2A92"
+	},
+	{ "name":"Ringer Control point",
+	  "value":"0x2A40"
+	},
+	{ "name":"Ringer Setting",
+	  "value":"0x2A41"
+	},
+	{ "name":"Rower Data",
+	  "value":"0x2AD1"
+	},
+	{ "name":"RSC Feature",
+	  "value":"0x2A54"
+	},
+	{ "name":"RSC Measurement",
+	  "value":"0x2A53"
+	},
+	{ "name":"SC Control Point",
+	  "value":"0x2A55"
+	},
+	{ "name":"Scan Interval Window",
+	  "value":"0x2A4F"
+	},
+	{"name":"Scan Refresh",
+		"value":"0x2A31"
+	},
+	{ "name":"Scientific Temperature Celsius",
+	  "value":"0x2A3C"
+	},
+	{"name":"Secondary Time Zone",
+          "value":"0x2A10"
+	},
+	{ "name":"Sensor Location",
+	  "value":"0x2A5D"
+	}, 
+	{ "name":"Serial Number String",
+          "value":"0x2A25"
+	},
+	{ "name":"Server Supported Features",
+	  "value":"0x2B3A"
+	},
+	{ "name":"Service Required",
+	  "value":"0x2A3B"
+	},
+	{ "name":"Software Revision String",
+	  "value":"0x2A28"
+	},
+	{ "name":"Sport Type for Aerobic and Anaerobic Thresholds",
+	  "value":"0x2A93"
+	},
+	{ "name":"Stair Climber Data",
+	  "value":"0x2AD0"
+	},
+	{ "name":"Step Climber Data",
+	  "value":"0x2ACF"
+	},
+	{ "name":"String",
+	  "value":"0x2A3D"
+	},
+	{ "name":"Supported Heart Rate Range",
+	  "value":"0x2AD7"
+	},
+	{ "name":"Supported Inclination Range",
+	  "value":"0x2AD5"
+	},
+	{ "name":"Supported New Alert Category",
+	  "value":"0x2A47"
+	},
+	{ "name":"Supported Power Range",
+	  "value":"0x2AD8"
+	},
+	{ "name":"Supported Resistance Level Range",
+	  "value":"0x2AD6"
+	},
+	{ "name":"Supported Speed Range",
+	  "value":"0x2AD4"
+	},
+	{ "name":"Supported Unread Alert Category",
+	  "value":"0x2A48"
+	},
+	{ "name":"System ID",
+	  "value":"0x2A23"
+	},
+	{ "name":"TDS Control Point",
+	  "value":"0x2ABC"
+	},
+	{ "name":"Temperature",
+	  "value":"0x2A6E"
+	},
+	{ "name":"Temperature Celsius",
+	  "value":"0x2A1F"
+	},
+	{ "name":"Temperature Fahrenheit",
+	  "value":"0x2A20"
+	},
+	{ "name":"Temperature Measurement",
+	  "value":"0x2A1C"
+	},
+	{ "name":"Temperature Type",
+	  "value":"0x2A1D"
+	},
+	{ "name":"Three Zone Heart Rate Limits",
+	  "value":"0x2A94"
+	},
+	{ "name":"Time Accuracy",
+	  "value":"0x2A12"
+	},
+	{ "name":"Time Broadcast",
+	  "value":"0x2A15"
+	},
+	{ "name":"Time Source",
+	  "value":"0x2A13"
+	},
+	{ "name":"Time Update Control Point",
+	  "value":"0x2A16"
+	},
+	{ "name":"Time Update State",
+	  "value":"0x2A17"
+	},
+	{ "name":"Time with DST",
+	  "value":"0x2A11"
+	},
+	{ "name":"Time Zone",
+	  "value":"0x2A0E"
+	},
+	{ "name":"Training Status",
+	  "value":"0x2AD3"
+	},
+	{ "name":"Treadmill Data",
+	  "value":"0x2ACD"
+	},
+	{ "name":"True Wind Direction",
+	  "value":"0x2A71"
+	},
+	{ "name":"True Wind Speed",
+	  "value":"0x2A70"
+	},
+	{ "name":"Two Zone Heart Rate Limit",
+	  "value":"0x2A95"
+	},
+	{ "name":"Tx Power Level",
+	  "value":"0x2A07"
+	},
+	{ "name":"Uncertainty",
+	  "value":"0x2AB4"
+	},
+	{ "name":"Unread Alert Status",
+	  "value":"0x2A45"
+	},
+	{ "name":"URI",
+	  "value":"0x2AB6"
+	},
+	{ "name":"User Control Point",
+	  "value":"0x2A9F"
+	},
+	{ "name":"User Index",
+	  "value":"0x2A9A"
+	},
+	{ "name":"UV Index",
+	  "value":"0x2A76"
+	},
+	{ "name":"VO2 Max",
+	  "value":"0x2A96"
+	},
+	{ "name":"Waist Circumference",
+	  "value":"0x2A97"
+	},
+	{ "name":"Weight",
+	  "value":"0x2A98"
+	},
+	{ "name":"Weight Measurement",
+	  "value":"0x2A9D"
+	},
+	{ "name":"Weight Scale Feature",
+	  "value":"0x2A9E"
+	},
+	{ "name":"Wind Chill",
+	  "value":"0x2A79"
+	}
+  ]
+}
